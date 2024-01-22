@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnimalMatchingGame.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            
+            
+            <Button Text="Play Again?" FontSize="Large" x:Name="PlayAgainButton" Clicked="PlayAgainButton_Clicked" />
+            <Label Text="Time Elapsed: 0.00" FontSize="Large" x:Name="TimeElapsed" />
+
+            <FlexLayout MaximumWidthRequest="400" Wrap="Wrap" x:Name="AnimalButtons" >
+                <Button Text="" WidthRequest="100" HeightRequest="100" FontSize="60" BackgroundColor="LightBlue" BorderColor="Black" Clicked="Button_Clicked"  />
+                <Button Text="" WidthRequest="100" HeightRequest="100" FontSize="60" BackgroundColor="LightBlue" BorderColor="Black" Clicked="Button_Clicked" />
+                <Button Text="" WidthRequest="100" HeightRequest="100" FontSize="60" BackgroundColor="LightBlue" BorderColor="Black" Clicked="Button_Clicked" />
+                <Button Text="" WidthRequest="100" HeightRequest="100" FontSize="60" BackgroundColor="LightBlue" BorderColor="Black" Clicked="Button_Clicked" />
+                <Button Text="" WidthRequest="100" HeightRequest="100" FontSize="60" BackgroundColor="LightBlue" BorderColor="Black" Clicked="Button_Clicked" />
+                <Button Text="" WidthRequest="100" HeightRequest="100" FontSize="60" BackgroundColor="LightBlue" BorderColor="Black" Clicked="Button_Clicked" />
+                <Button Text="" WidthRequest="100" HeightRequest="100" FontSize="60" BackgroundColor="LightBlue" BorderColor="Black" Clicked="Button_Clicked" />
+                <Button Text="" WidthRequest="100" HeightRequest="100" FontSize="60" BackgroundColor="LightBlue" BorderColor="Black" Clicked="Button_Clicked" />
+                <Button Text="" WidthRequest="100" HeightRequest="100" FontSize="60" BackgroundColor="LightBlue" BorderColor="Black" Clicked="Button_Clicked" />
+                <Button Text="" WidthRequest="100" HeightRequest="100" FontSize="60" BackgroundColor="LightBlue" BorderColor="Black" Clicked="Button_Clicked" />
+                <Button Text="" WidthRequest="100" HeightRequest="100" FontSize="60" BackgroundColor="LightBlue" BorderColor="Black" Clicked="Button_Clicked" />
+                <Button Text="" WidthRequest="100" HeightRequest="100" FontSize="60" BackgroundColor="LightBlue" BorderColor="Black" Clicked="Button_Clicked" />
+                <Button Text="" WidthRequest="100" HeightRequest="100" FontSize="60" BackgroundColor="LightBlue" BorderColor="Black" Clicked="Button_Clicked" />
+                <Button Text="" WidthRequest="100" HeightRequest="100" FontSize="60" BackgroundColor="LightBlue" BorderColor="Black" Clicked="Button_Clicked" />
+                <Button Text="" WidthRequest="100" HeightRequest="100" FontSize="60" BackgroundColor="LightBlue" BorderColor="Black" Clicked="Button_Clicked" />
+                <Button Text="" WidthRequest="100" HeightRequest="100" FontSize="60" BackgroundColor="LightBlue" BorderColor="Black" Clicked="Button_Clicked"  />
+            </FlexLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
